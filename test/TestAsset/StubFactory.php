@@ -1,0 +1,39 @@
+<?php
+
+declare(strict_types=1);
+
+namespace KaduDutraTest\PsrContainerDoctrine\TestAsset;
+
+use Psr\Container\ContainerInterface;
+use KaduDutra\PsrContainerDoctrine\AbstractFactory;
+
+class StubFactory extends AbstractFactory
+{
+    /**
+     * {@inheritdoc}
+     */
+    protected function createWithConfig(ContainerInterface $container, string $configKey)
+    {
+        return $configKey;
+    }
+
+    // phpcs:disable Generic.CodeAnalysis.UselessOverridingMethod.Found
+
+    /**
+     * {@inheritdoc}
+     */
+    public function retrieveConfig(ContainerInterface $container, string $configKey, string $section) : array
+    {
+        return parent::retrieveConfig($container, $configKey, $section);
+    }
+
+    // phpcs:enable
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getDefaultConfig(string $configKey) : array
+    {
+        return [];
+    }
+}
