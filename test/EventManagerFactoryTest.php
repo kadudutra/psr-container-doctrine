@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace KaduDutraTest\PsrContainerDoctrine;
+namespace RoaveTest\PsrContainerDoctrine;
 
 use Doctrine\ORM\Events;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use KaduDutra\PsrContainerDoctrine\EventManagerFactory;
-use KaduDutra\PsrContainerDoctrine\Exception\DomainException;
-use KaduDutra\PsrContainerDoctrine\Exception\InvalidArgumentException;
-use KaduDutraTest\PsrContainerDoctrine\TestAsset\StubEventListener;
-use KaduDutraTest\PsrContainerDoctrine\TestAsset\StubEventSubscriber;
+use Roave\PsrContainerDoctrine\EventManagerFactory;
+use Roave\PsrContainerDoctrine\Exception\DomainException;
+use Roave\PsrContainerDoctrine\Exception\InvalidArgumentException;
+use RoaveTest\PsrContainerDoctrine\TestAsset\StubEventListener;
+use RoaveTest\PsrContainerDoctrine\TestAsset\StubEventSubscriber;
 use stdClass;
 use function array_pop;
 use function sprintf;

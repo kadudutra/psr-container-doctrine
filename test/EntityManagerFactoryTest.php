@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KaduDutraTest\PsrContainerDoctrine;
+namespace RoaveTest\PsrContainerDoctrine;
 
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Connection;
@@ -10,8 +10,8 @@ use Doctrine\ORM\Configuration;
 use Doctrine\Persistence\Mapping\Driver\MappingDriverChain;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use KaduDutra\PsrContainerDoctrine\AbstractFactory;
-use KaduDutra\PsrContainerDoctrine\EntityManagerFactory;
+use Roave\PsrContainerDoctrine\AbstractFactory;
+use Roave\PsrContainerDoctrine\EntityManagerFactory;
 use function sys_get_temp_dir;
 
 final class EntityManagerFactoryTest extends TestCase

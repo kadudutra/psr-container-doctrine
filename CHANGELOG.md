@@ -28,7 +28,7 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ### Added
 
-- [#1](https://github.com/roave/psr-container-doctrine/pull/1) Namespace changed from `ContainerInteropDoctrine\*` to `KaduDutra\PsrContainerDoctrine\*` (thanks @asgrim)
+- [#1](https://github.com/roave/psr-container-doctrine/pull/1) Namespace changed from `ContainerInteropDoctrine\*` to `Roave\PsrContainerDoctrine\*` (thanks @asgrim)
   - Note, a shim exists in `bc-namespace-shim.php` so previous namespace will still work. This will be removed in `3.0.0`.
 - [DASPRiD#44](https://github.com/DASPRiD/container-interop-doctrine/pull/44) Added support for PhpFileCache (thanks @byan)
 - [DASPRiD#43](https://github.com/DASPRiD/container-interop-doctrine/pull/43) Added support for Event Listeners configuration (thanks @daniel-braga)

@@ -11,11 +11,10 @@ use function sprintf;
 /** @internal */
 abstract class AbstractFactory
 {
-    /** @var string */
-    private $configKey;
+    private string $configKey;
 
     /** @internal */
-    public function __construct(string $configKey = 'orm_default')
+    final public function __construct(string $configKey = 'orm_default')
     {
         $this->configKey = $configKey;
     }
