@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=7.3.0,<7.5.0",
+        "php": "^7.3|^8.0",
         "doctrine/common": "^2.6",
         "doctrine/dbal": "^2.5",
         "doctrine/migrations": "^2.2",
