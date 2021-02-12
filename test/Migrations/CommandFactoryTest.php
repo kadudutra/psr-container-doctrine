@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RoaveTest\PsrContainerDoctrine;
+namespace KaduDutraTest\PsrContainerDoctrine;
 
 use Doctrine\Migrations\Configuration\Migration\ConfigurationLoader;
 use Doctrine\Migrations\DependencyFactory;
@@ -10,8 +10,8 @@ use Doctrine\Migrations\Tools\Console\Command;
 use Doctrine\ORM\EntityManagerInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\Exception\DomainException;
-use Roave\PsrContainerDoctrine\Migrations\CommandFactory;
+use KaduDutra\PsrContainerDoctrine\Exception\DomainException;
+use KaduDutra\PsrContainerDoctrine\Migrations\CommandFactory;
 use stdClass;
 
 final class CommandFactoryTest extends TestCase

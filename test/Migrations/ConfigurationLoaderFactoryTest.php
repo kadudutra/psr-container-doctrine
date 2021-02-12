@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace RoaveTest\PsrContainerDoctrine\Migrations;
+namespace KaduDutraTest\PsrContainerDoctrine\Migrations;
 
 use Doctrine\Migrations\Configuration\Migration\ConfigurationArray;
 use Doctrine\Migrations\Metadata\Storage\TableMetadataStorageConfiguration;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\AbstractFactory;
-use Roave\PsrContainerDoctrine\Migrations\ConfigurationLoaderFactory;
+use KaduDutra\PsrContainerDoctrine\AbstractFactory;
+use KaduDutra\PsrContainerDoctrine\Migrations\ConfigurationLoaderFactory;
 use function assert;
 
 final class ConfigurationLoaderFactoryTest extends TestCase

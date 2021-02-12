@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Roave\PsrContainerDoctrine\Migrations;
+namespace KaduDutra\PsrContainerDoctrine\Migrations;
 
 use Doctrine\Migrations\DependencyFactory;
 use Doctrine\Migrations\Tools\Console\Command\DoctrineCommand;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\AbstractFactory;
-use Roave\PsrContainerDoctrine\Exception\DomainException;
+use KaduDutra\PsrContainerDoctrine\AbstractFactory;
+use KaduDutra\PsrContainerDoctrine\Exception\DomainException;
 use function assert;
 use function is_a;
 

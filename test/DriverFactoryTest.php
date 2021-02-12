@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace RoaveTest\PsrContainerDoctrine;
+namespace KaduDutraTest\PsrContainerDoctrine;
 
 use Doctrine\ORM\Mapping\Driver;
 use Doctrine\Persistence\Mapping\Driver\FileDriver;
 use Doctrine\Persistence\Mapping\Driver\MappingDriverChain;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\DriverFactory;
-use Roave\PsrContainerDoctrine\Exception\OutOfBoundsException;
+use KaduDutra\PsrContainerDoctrine\DriverFactory;
+use KaduDutra\PsrContainerDoctrine\Exception\OutOfBoundsException;
 
 final class DriverFactoryTest extends TestCase
 {

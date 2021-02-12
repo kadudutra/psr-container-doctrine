@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RoaveTest\PsrContainerDoctrine\Migrations;
+namespace KaduDutraTest\PsrContainerDoctrine\Migrations;
 
 use Doctrine\Migrations\Configuration\Configuration;
 use Doctrine\Migrations\Configuration\Migration\ConfigurationArray;
@@ -11,7 +11,7 @@ use Doctrine\Migrations\DependencyFactory;
 use Doctrine\ORM\EntityManagerInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\Migrations\DependencyFactoryFactory;
+use KaduDutra\PsrContainerDoctrine\Migrations\DependencyFactoryFactory;
 
 final class DependencyFactoryFactoryTest extends TestCase
 {

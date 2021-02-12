@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Roave\PsrContainerDoctrine\Migrations;
+namespace KaduDutra\PsrContainerDoctrine\Migrations;
 
 use Doctrine\Migrations\Configuration\EntityManager\ExistingEntityManager;
 use Doctrine\Migrations\Configuration\Migration\ConfigurationLoader;
 use Doctrine\Migrations\DependencyFactory;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\AbstractFactory;
-use Roave\PsrContainerDoctrine\EntityManagerFactory;
+use KaduDutra\PsrContainerDoctrine\AbstractFactory;
+use KaduDutra\PsrContainerDoctrine\EntityManagerFactory;
 
 final class DependencyFactoryFactory extends AbstractFactory
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Roave\PsrContainerDoctrine\Migrations;
+namespace KaduDutra\PsrContainerDoctrine\Migrations;
 
 use Doctrine\Migrations\Configuration\Migration\ConfigurationArray;
 use Doctrine\Migrations\Configuration\Migration\ConfigurationLoader;
 use Psr\Container\ContainerInterface;
-use Roave\PsrContainerDoctrine\AbstractFactory;
+use KaduDutra\PsrContainerDoctrine\AbstractFactory;
 
 /**
  * @method ConfigurationLoader __invoke(ContainerInterface $container)
